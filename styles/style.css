@@ -284,6 +284,7 @@ nav
     background-repeat: no-repeat;
     text-align: center;
     padding: 200px 300px;
+    margin-top: 50px;
 }
 
 .join-section-title
@@ -314,6 +315,20 @@ nav
     background-color: #E95A08;
     border: none;
     padding: 10px 10px;
+}
+
+/* this is the footer section */
+.footer-description
+{
+    width: 350px;
+    height: 81px;
+}
+
+/* footer style */
+.footer-section
+{
+    display: flex;
+    justify-content: space-around;
 }
 
 
@@ -459,5 +474,10 @@ nav
     .join-section
     {
         padding: 20px 30px;
+    }
+
+    .footer-section
+    {
+        flex-direction: column;
     }
 }
