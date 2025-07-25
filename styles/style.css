@@ -223,7 +223,7 @@ nav
 .latest-deal-right
 {
     width: 66%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.54)), url(/assets/deal-zabo.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.54)), url(../assets/deal-zabo.png);
     background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -245,7 +245,7 @@ nav
 .latest-deal-bottom
 {
     border-radius: 10px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.54)), url(/assets/deal-ana.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.54)), url(../assets/deal-ana.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 20px;
@@ -272,7 +272,7 @@ nav
 .join-section-main
 {
     display: flex;
-    background-image: url(/assets/news-letter-bg.png);
+    background-image: url(../assets/news-letter-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
