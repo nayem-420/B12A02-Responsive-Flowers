@@ -272,6 +272,40 @@ nav
 
 
 /* join section style */
+.join-section
+{
+    background-image: url(/assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 150px 300px;
+}
+
+.join-section-title
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.join-section-details
+{
+    display: flex;
+}
+
+.join-section-input
+{
+    padding-left: 10px;
+    border: none;
+    width: 70%;
+}
+
+.join-section-details> .cart-btn
+{
+    width: 30%;
+    margin-top: auto;
+}
 
 
 
@@ -294,6 +328,12 @@ nav
 /* responsive style */
 @media screen and (max-width:576px) 
 {
+    body
+    {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
     nav 
     {
         margin: 20px 20px;
@@ -417,6 +457,14 @@ nav
     }
 
     /* lets deal section style */
+    .join-section 
+    {
+       /* width: 50%; */
+       padding-left: 100px;
+       padding-right: 100px;
+       padding-top: 10px;
+    }
+
     .latest-deal-main
     {
         flex-direction: column;
@@ -440,21 +488,18 @@ nav
         
     }
 
-    
-
-    
-
-    
-
-    .right-column
+    .join-section-title
     {
-        flex-direction: column;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
     }
 
-    .join-section
-    {
-        padding: 20px 30px;
-    }
+    
+
+    
+
+    
 
     .footer-section
     {
